@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: black;
+    text-align: center;
+}
+h1,h2,h3{
+    text-shadow: 2px 2px 5px black;
+}
+.header{
+    background: #ff9f1c;
+    animation: fadeIn 2s ease-in-out;
+    padding: 18px;
+}
+.navigation{
+    background: black;
+    padding: 15px;
+}
+.navigation-links{
+    list-style: none;
+    padding: 0;
+}
+.navigation-links li{
+    display: inline;
+    margin: 0 15px;
+}
+.navigation-links a{
+    color: #ffcc00;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+.navigation-links a:hover{
+    color: #fff;
+}
+
+
+.main-content {
+    padding: 20px;
+}
+.About-india, .famous-landmarks, .Indian-Culture, .delicious-indian-cuisine{
+    background: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    animation: slideUp 1.5s ease-in-out;
+}
+img{
+    width:450px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    transition: transform 0.3s ease;
+}
+img:hover{
+    transform: scale(1.05);
+}
+.indian-map, .taj-mahal, .qutub-minar, .indian-dance, .biryani, .Street-Food{
+    color: #6c757d;
+}
+.footer{
+    height: 55px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background: green;
+    color: white;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    bottom:0;
+}
+.footer a{
+    color: #ffcc00;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+
+
+@keyframes fadeIn{
+    frome{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes slideUp {
+    from{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
