@@ -5,6 +5,7 @@ body{
 .container{
     margin: 0;
     padding: 0;
+    padding-bottom: 20px;
     font-family: Arial, sans-serif;
     background: white;
     color: black;
@@ -41,7 +42,7 @@ h1, h2,h3{
 }
 
 .main-content{padding: 20px;}
-.festivals, .languages, .traditional-attire{
+.north-indian, .south-indian, .sweet-delights{
     background: #f4f4f4;
     margin: 20px;
     padding: 20px;
@@ -58,7 +59,7 @@ img{
 img:hover{
     transform: scale(1.05);
 }
-.diwali, .traditional-saree{
+.masala-dosa, .gulab-jamun{
     color:#6c757d ;
 }
 .footer{
