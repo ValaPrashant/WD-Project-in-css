@@ -11,11 +11,12 @@ body{
     color: black;
     text-align: center;
 }
-<<<<<<< HEAD
+
 h1,h3{
-=======
+    text-shadow: 2px 2px 5px black;
+}
 h1, h2,h3{
->>>>>>> e9b083482be7bcd8006c3172991bc29d9cfbd7b1
+
     text-shadow: 2px 2px 5px black;
 }
 .header{

@@ -9,20 +9,10 @@ body{
     background: white;
     color: black;
 }
-<<<<<<< HEAD
-h1,h3{
-    text-shadow: 2px 2px 5px black;
-    text-align: center;
-}
-h3{
-    text-align: center;
-}
-=======
 h1,h2,h3{
     text-shadow: 2px 2px 5px black;
     text-align: center;
 }
->>>>>>> e9b083482be7bcd8006c3172991bc29d9cfbd7b1
 .header{
     background: #ff9f1c;
     animation: fadeIn 2s ease-in-out;
