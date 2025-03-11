@@ -8,19 +8,24 @@ body{
     font-family: Arial, sans-serif;
     background: white;
     color: black;
-    text-align: center;
 }
 h1,h3{
     text-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+h3{
+    text-align: center;
 }
 .header{
     background: #ff9f1c;
     animation: fadeIn 2s ease-in-out;
     padding: 18px;
+    text-align: center;
 }
 .navigation{
     background: black;
     padding: 15px;
+    text-align: center;
 }
 .navigation-links{
     list-style: none;
@@ -39,30 +44,84 @@ h1,h3{
 .navigation-links a:hover{
     color: #fff;
 }
-
-
+.table{
+    background: #f4f4f4;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0  10px black;
+    animation: slideUp 1.5s ease-in-out; 
+}
+td{
+    padding: 10px;
+    font-size: 16px;
+    color: #555;
+}
+input,select,textarea{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input[type="checkbox"]{
+    width: auto;
+    margin-right: 5px;
+}
+.bettan{
+    background-color: #28a745;
+    color: white;
+    margin: 4px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: backgraound 0.3s ease;
+    width: 100%;
+}
+.bettan:hover{
+    background-color: #0ac332;
+}
+input[type="reset"]{
+    background-color: #dc3545;
+}
+input[type="reset"]:hover{
+    background-color: #c82333;
+}
 .main-content {
     padding: 20px;
 }
-.About-india, .famous-landmarks, .Indian-Culture, .delicious-indian-cuisine{
+.more-information{
+    height: 500px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 60px;
+    padding: 30px;
     background: #f4f4f4;
-    margin: 20px;
-    padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0  10px black;
     animation: slideUp 1.5s ease-in-out;
 }
-img{
-    width:450px;
+.OJASWebsitePhoto{
+    width:300px;
     border-radius: 10px;
     box-shadow: 0 0 10px black;
     transition: transform 0.3s ease;
 }
-img:hover{
-    transform: scale(1.05);
+.scroll{
+    overflow: scroll;
+    height: 350px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    transition: transform 0.3s ease; 
 }
-.indian-map, .taj-mahal, .qutub-minar, .indian-dance, .biryani, .Street-Food{
-    color: #6c757d;
+.backtohome{
+    padding-left: 350px;
 }
 .footer{
     height: 55px;
@@ -83,6 +142,7 @@ img:hover{
 .footer a:hover{
     text-decoration: underline;
 }
+
 
 @keyframes fadeIn{
     0%{
