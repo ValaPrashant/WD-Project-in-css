@@ -83,6 +83,25 @@ img:hover{
 .footer a :hover{
     text-decoration: underline;
 }
+button{
+    background-color:#ff6700;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.1s ease;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+}
+button:hover{
+    background-color: green;
+}
+
 @keyframes fadeIn{
     0%{
         opacity: 0;
